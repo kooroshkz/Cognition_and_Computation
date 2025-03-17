@@ -1,8 +1,39 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Conda and virtual environments
+env/
+venv/
+*.venv/
+.conda/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temp files
+*.log
+*.out
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore package managers
+pip-log.txt
+pip-delete-this-directory.txt
+node_modules/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+workspace.xml
 /httpRequests/
-# Datasource local storage ignored files
+
+/shelf/
+
 /dataSources/
 /dataSources.local.xml
